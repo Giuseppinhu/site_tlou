@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+}
+
+header .container img {
+    height: 45px;
+}
+
+header h1 {
+    color: white;
+}
+
+header nav li,
+.age {
+    display: inline;
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background: rgb(11,11,11);
+    background: linear-gradient(90deg, rgba(11,11,11,1) 8%, rgba(20,18,18,1) 29%, rgba(31,26,26,1) 60%);
+    height: 100%;
+}
+
+.container {
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about {
+    background-image: url(./imagens/img_jogo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: top center;
+    height: 37em;
+    color: whitesmoke;
+}
+
+#about h2, h3, h4, 
+#about li b, 
+#about li a,
+.text,
+.container-trailer {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    color: #ffff;
+}
+
+#about h2 {
+    font-size: 6ex;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#about h3 {
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+#about h4 {
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+
+.brand img {
+    height: 24px;
+}
+
+.brand li,
+a {
+    display: inline-block;
+    padding: 1px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-about h4, ul{
+    display: inline;
+}
+
+.container-about,
+.container-trailer,
+.text{
+    margin-left: 200px;
+}
+
+.container-trailer {
+    justify-content: space-between;
+}
+
+.trailer {
+    margin-top: 10px;
+    border: solid 4px;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0, 0.5);
+}
+
+
+.age {
+    margin-left: 400px;
+    justify-items: center;
+}
+
+.age img { 
+    height: 45px;
+}
+
+.age, 
+.trailer {
+    display: inline;
+}
+
+.text h1{
+    padding: 25px;
+}
+
+.text p {
+    font-size: large;
+    text-justify: justify;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    margin-right: 500px;
+    color: #ffff;
+    margin-bottom: 50px;
+}
+
+#spec {
+    background-color: rgb(245, 245, 238);
+    background-size: 10vw;
+    height: 100%;
+}
+
+.brand-naughty {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.brand-naughty img {
+    height: 100px;
+    display: ;
+}
+
